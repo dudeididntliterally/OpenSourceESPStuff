@@ -9,25 +9,25 @@ local espSection = esp:AddSection({
 	Name = "ESP"
 })
 
-Home:AddButton({
+esp:AddButton({
 Name = "Chams",
 Callback = function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/dudeididntliterally/OpenSourceESPStuff/main/Chams.lua"))()
 end})
 
-Home:AddButton({
+esp:AddButton({
 Name = "Highlight",
 Callback = function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/dudeididntliterally/OpenSourceESPStuff/main/Highlight.lua"))()
 end})
 
-Home:AddButton({
+esp:AddButton({
 Name = "Skeleton",
 Callback = function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/dudeididntliterally/OpenSourceESPStuff/main/Skeleton.lua"))()
 end})
 
-Home:AddButton({
+esp:AddButton({
 Name = "Tracers",
 Callback = function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/dudeididntliterally/OpenSourceESPStuff/main/Tracers.lua"))()
